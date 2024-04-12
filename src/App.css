@@ -1,0 +1,72 @@
+
+.outer-box{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right top, rgb(255, 0, 43),blue);
+  text-align: center;
+}
+.inner-box{
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.swift{
+
+font-family:"Poppins", sans-serif;
+font-weight: 800;
+font-style: italic;
+  font-size: 2.5rem;
+  color: rgb(0, 128, 255);
+  
+}
+.signup-body{
+  margin: 20px 0;
+
+}
+.signup-body p{
+  margin: 15px 0;
+}
+.signup-body a input{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #cccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 4px;
+}
+.login-footeeer{
+  padding: 7px 60px;
+  border-radius: 8px;
+  border: none;
+}
+.Button{
+  background-color: hsl(200,100%,50%);
+  color: white;
+  padding: 8px 60px;
+  border-radius: 8px;
+  border: none;
+}
+
+.signup-body input[type="text"]{
+  width: 80%;
+  padding: 8px;
+  border-radius: 8px;
+ 
+  
+}
+
+.signup-body input[type="password"]{
+  width: 80%;
+  padding: 8px;
+  border-radius: 8px;
+ 
+}
+.Button:hover{
+background-color: green;
+}

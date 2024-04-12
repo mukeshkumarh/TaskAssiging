@@ -1,0 +1,552 @@
+body{
+    background-color: black;
+}
+.main-containar {
+    display: block;
+    
+    margin-left: 200px;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.containar {
+    display: flex;
+}
+
+.second-contenar span {
+    position: relative;
+    top: 35px;
+    left: 23px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.font-size{
+    font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+    color: white;
+}
+
+.nave {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 60px;
+    left: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button1-containar {
+    background-color: black;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.button2 {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.557);
+    border: none;
+    position: relative;
+    left: 40px;
+}
+
+.button3 {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.557);
+    border: none;
+    position: relative;
+    left: 70px;
+}
+
+.input-wrap,
+.input-wra,
+.input-Priority {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.input-wrap{
+    display: flex;
+    
+    position: relative;
+    top: 85px;
+    left: 23px;
+}
+.input-wra{
+    display: flex;
+    
+    position: relative;
+    top: 45px;
+    left: 80%;
+}
+.input-Priority{
+    display: flex;
+    
+    position: relative;
+    top: 7px;
+    left: 115%;
+}
+.input-wrap label,
+.input-wra label,
+.input-Priority label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.557);
+    padding: 14px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.input {
+    height: 40px;
+    width: 380px;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+    background-color: #2f4050e7;
+    border: none;
+    border-radius: 10px;
+}
+
+.Name,
+.Prio {
+    color: white;
+}
+
+.Input,
+.Priority {
+    height: 40px;
+    width: 150px;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+    background-color: #2f4050e7;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-footer {
+    display: flex;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    left: 158%;
+    bottom: 33px;
+}
+
+.Button {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 5px 45px;
+    border-radius: 8px;
+    border: none;
+}
+
+.Button .logo {
+    position: relative;
+    right: 50px;
+}
+
+.table {
+    color: rgba(255, 255, 255, 0.641);
+    margin-left: 92%;
+    position: relative;
+    bottom: 60px;
+}
+
+.button {
+    display: block;
+    position: relative;
+    top: 5px;
+    left: 23px;
+}
+
+.Button .bttn1 {}
+
+.btt1 {
+    color: white;
+}
+
+.bttn1 {
+    height: 40px;
+    width: 500px;
+    color: black;
+    font-size: 20px;
+    background-color: hsl(200, 100%, 50%);
+    border: none;
+    border-radius: 10px;
+}
+
+.button label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 14px;
+    position: absolute;
+    left: 0;
+}
+
+.bttn1 .Add {
+    color: white;
+    position: relative;
+    left: 210px;
+    top: 4px;
+}
+
+.botton {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -35px;
+    left: 100%;
+}
+
+.bttt1 {
+    color: white;
+}
+
+.btttn1 {
+    height: 40px;
+    width: 500px;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(255, 8, 0);
+    border: none;
+    border-radius: 10px;
+}
+
+.botton label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 14px;
+    position: absolute;
+    left: 0;
+}
+
+.btttn1 .aadd {
+    color: white;
+    position: relative;
+    left: 210px;
+    top: 4px;
+}
+
+.card-containar {
+    margin-top: -50%;
+}
+
+.card-main {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    width: 40%;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .main-containar {
+        margin-left: 0;
+        width: 100%;
+        position: static;
+    }
+
+    .nave {
+        flex-direction: column;
+        gap: 10px;
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+    .button2,
+    .button3 {
+        left: 0;
+    }
+
+    .input-wrap {
+        top: 20px;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .button {
+        left: 0;
+        margin-top: 20px;
+    }
+}
+
+.card{
+    background-color:  #2f4050e7;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    height: 18%;
+    width: 85%;
+    position: relative;
+    left: 95%;
+   bottom: 8%;
+   border-radius: 10px;
+   
+}
+.card p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
+top: 0px;
+left: 5px;
+right: 5px;
+display: flex;
+
+}
+
+ .pen{
+    color: white;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.dot{
+    color: white;
+    position: relative;
+    left: 370px;
+    top: 10px;
+}
+.date{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.card h5{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 20px;
+border-radius: 20px;
+
+}
+
+.card1{
+    background-color:  #2f4050e7;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    height: 18%;
+    width: 85%;
+    position: relative;
+    left: 95%;
+   bottom: 50%;
+   border-radius: 10px;
+   margin-top: 20px;  
+}
+.card1 p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
+top: 0px;
+left: 5px;
+right: 5px;
+}
+
+ .pen1{
+    color: white;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.dot1{
+    color: white;
+    position: relative;
+    left: 370px;
+    top: 10px;
+}
+.date1{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.card1 h5{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 20px;
+border-radius: 20px;
+
+}
+
+
+.card2{
+    background-color:  #2f4050e7;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    height: 18%;
+    width: 85%;
+    position: relative;
+    left: 95%;
+   bottom: 30%;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+
+.card2 p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
+top: 0px;
+left: 5px;
+right: 5px;
+}
+
+ .pen2{
+    color: white;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.dot2{
+    color: white;
+    position: relative;
+    left: 370px;
+    top: 10px;
+}
+.date2{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.card2 h5{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 20px;
+border-radius: 20px;
+
+}
+
+
+.card3{
+    background-color:  #2f4050e7;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    height: 18%;
+    width: 85%;
+    position: relative;
+    left: 20px;
+   bottom: 89%;
+   border-radius: 10px;
+   
+}
+.card3 p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
+top: 0px;
+left: 5px;
+right: 5px;
+display: flex;
+
+}
+
+ .pen3{
+    color: white;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.dot3{
+    color: white;
+    position: relative;
+    left: 370px;
+    top: 10px;
+}
+.date3{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.card3 h5{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 20px;
+border-radius: 20px;
+
+}
+
+
+.card4{
+    background-color:  #2f4050e7;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    height: 18%;
+    width: 85%;
+    position: relative;
+    left: 20px;
+  bottom: 85%;
+    
+   border-radius: 10px;
+   
+}
+.card4 p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
+top: 0px;
+left: 5px;
+right: 5px;
+display: flex;
+
+}
+
+ .pen4{
+    color: white;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.dot4{
+    color: white;
+    position: relative;
+    left: 370px;
+    top: 10px;
+}
+.date4{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.card4 h5{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 20px;
+border-radius: 20px;
+
+}

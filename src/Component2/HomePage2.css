@@ -1,0 +1,425 @@
+body{
+    background-color: black;
+}
+.main-containar {
+    display: block;
+    
+    margin-left: 200px;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.containar {
+    display: flex;
+}
+
+.second-contenar span {
+    position: relative;
+    top: 35px;
+    left: 23px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.font-size{
+    font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+    color: white;
+}
+
+.nave {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 60px;
+    left: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button1-containar {
+    background-color: black;
+}
+
+.button1 {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.557);
+    border: none;
+}
+
+.button2 {
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    left: 40px;
+}
+
+.button3 {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.557);
+    border: none;
+    position: relative;
+    left: 70px;
+}
+
+.input-wrap,
+.input-wra,
+.input-Priority {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+.input-wrap{
+    display: flex;
+    
+    position: relative;
+    top: 85px;
+    left: 23px;
+}
+.input-wra{
+    display: flex;
+    
+    position: relative;
+    top: 45px;
+    left: 90%;
+}
+.input-Priority{
+    display: flex;
+   margin-left: 130%;
+}
+.input-wrap label,
+.input-wra label,
+.input-Priority label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.557);
+    padding: 14px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+}
+
+.input {
+    height: 40px;
+    width: 380px;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+    background-color: #2f4050e7;
+    border: none;
+    border-radius: 10px;
+}
+
+.Name,
+.Prio {
+    color: white;
+}
+
+.Input,
+.Priority {
+    height: 40px;
+    width: 150px;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+    background-color: #2f4050e7;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-footer {
+    display: flex;
+    height: 40px;
+    width: 150px;
+  position: relative;
+  left: 200%;
+  bottom: 7%;
+}
+
+.Button {
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 5px 45px;
+    border-radius: 8px;
+    border: none;
+}
+
+.Button .logo {
+    position: relative;
+    right: 40px;
+}
+
+
+.card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2F4050;
+    height: -20%;
+    width: 110%;
+    margin-left: 23px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.card-cont{
+    
+}
+.pen4{
+    color: white;
+    position: relative;
+    left: 90%;
+    top: -3px;
+}
+.dot4{
+    color: white;
+    position: relative;
+    left: 95%;
+    top: -3px;
+}
+.date4{
+    color: white;
+    position: relative;
+    left: 30%;
+    top: -5%;
+}
+ h5{
+    color: white;
+    position: relative;
+    top: 9px;
+    left: -3%;
+
+
+}
+
+ .header{
+    position: relative;
+left: -8px;
+color: white;
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+}
+.containt{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.346);
+    height: 40%;
+    justify-content: space-between;
+    margin-top: 6%;
+   position: relative;
+   left: 5%;
+   border-radius: 10px;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+.main-containt{
+    position: relative;
+    top: 20%;
+    color: white;
+}
+
+
+.card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2F4050;
+    height: 60%;
+    width: 110%;
+    margin-left: 23px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.card-cont{
+    
+}
+.pen4{
+    color: white;
+    position: relative;
+    left: 90%;
+    top: -3px;
+}
+.dot4{
+    color: white;
+    position: relative;
+    left: 95%;
+    top: -3px;
+}
+.date4{
+    color: white;
+    position: relative;
+    left: 30%;
+    top: -5%;
+}
+ h5{
+    color: white;
+    position: relative;
+    top: 9px;
+    left: -3%;
+
+
+}
+
+ .header{
+    position: relative;
+left: -8px;
+color: white;
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+}
+.containt{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.346);
+    height: 40%;
+    justify-content: space-between;
+    margin-top: 6%;
+   position: relative;
+   left: 5%;
+   border-radius: 10px;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+.main-containt{
+    position: relative;
+    top: 20%;
+    color: white;
+}
+
+
+
+.card-cont{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2F4050;
+    height: 45%;
+    width: 110%;
+    margin-left: 23px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.card-cont{
+    
+}
+.pen4{
+    color: white;
+    position: relative;
+    left: 90%;
+    top: -3px;
+}
+.dot4{
+    color: white;
+    position: relative;
+    left: 95%;
+    top: -3px;
+}
+.date4{
+    color: white;
+    position: relative;
+    left: 30%;
+    top: -5%;
+}
+ h5{
+    color: white;
+    position: relative;
+    top: 9px;
+    left: -3%;
+
+
+}
+
+ .header{
+    position: relative;
+left: -8px;
+color: white;
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+}
+.containt{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.346);
+    height: 40%;
+    justify-content: space-between;
+    margin-top: 6%;
+   position: relative;
+   left: 5%;
+   border-radius: 10px;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+.main-containt{
+    position: relative;
+    top: 20%;
+    color: white;
+}
+
+
+.card-cont2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2F4050;
+    height: 45%;
+    width: 110%;
+    margin-left: 123%;
+    border-radius: 10px;
+    justify-content: center;
+    position: relative;
+    bottom: 45%;
+}
+.card-cont3{
+    
+}
+.pen5{
+    color: white;
+    position: relative;
+    left: 90%;
+    top: -3px;
+}
+.dot5{
+    color: white;
+    position: relative;
+    left: 95%;
+    top: -3px;
+}
+.date5{
+    color: white;
+    position: relative;
+    left: 30%;
+    top: -5%;
+}
+ h5{
+    color: white;
+    position: relative;
+    top: 9px;
+    left: -3%;
+
+
+}
+
+ .header1{
+    position: relative;
+left: -8px;
+color: white;
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+}
+.containt1{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.346);
+    height: 40%;
+    justify-content: space-between;
+    margin-top: 6%;
+   position: relative;
+   left: 5%;
+   border-radius: 10px;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+.main-containt1{
+    position: relative;
+    top: 20%;
+    color: white;
+}

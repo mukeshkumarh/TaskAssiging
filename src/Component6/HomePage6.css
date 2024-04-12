@@ -1,0 +1,257 @@
+body{
+    background-color: black;
+}
+
+.main-containar {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+   
+}
+
+.containar {
+    display: flex;
+}
+
+.second-contenar span {
+    position: relative;
+    top: 20px;
+    left: 85%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    width: 65%;
+    font-style: normal;
+}
+.font-size{
+    width: 65%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+    color: white;
+}
+
+.input-wrap{
+    display: flex;
+    
+    position: relative;
+    top: 45px;
+    left: 88%;
+ }
+ .name{
+    color: white;
+ }
+ .input{
+    height: 40px;
+    width: 380px;
+    color: black;
+    font-size: 20px;
+    padding-left:20px ;
+    outline: none;
+    background-color: #2f4050e7;
+    border: none;
+    border-radius: 10px;
+ }
+ .input-wrap label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.557);
+    padding: 14px;
+    position: absolute;
+    
+    left: 0;
+    bottom: -2px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+ }
+ .input-wrap{
+    position: relative;
+    width: auto;
+    height: auto;
+ }
+
+ .input-wra{
+    display: flex;
+    
+    position: relative;
+    top: 7px;
+    left: 205%;
+ }
+ .Name{
+    color: white;
+ }
+ .Input{
+    height: 40px;
+    width: 150px;
+    color: black;
+    font-size: 20px;
+    padding-left:20px ;
+    outline: none;
+    background-color: #2f4050e7;
+    border: none;
+    border-radius: 10px;
+ }
+ .input-wra label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.557);
+    padding: 14px;
+    position: absolute;
+    
+    left: 0;
+    bottom: -2px;
+    pointer-events: none;
+    transition: 0.3s ease all;
+ }
+ .input-wra{
+    position: relative;
+    width: auto;
+    height: auto;
+ }
+
+ .login-footer{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    left: 255%;
+    bottom: 33px;
+    }
+    .Button{
+      background-color: hsl(200,100%,50%);
+      color: white;
+      padding: 5px 45px;
+      border-radius: 8px;
+      border: none;
+    }
+    .Button .logo{
+       position: relative;
+       right: 30px;
+    }
+
+    .login-footer1{
+        display: flex;
+        height: 40px;
+        width: 150px;
+        position: relative;
+        left: 355%;
+        bottom: 64px;
+        }
+        .Button{
+          background-color: hsl(200,100%,50%);
+          color: white;
+          padding: 5px 45px;
+          border-radius: 8px;
+          border: none;
+          
+        }
+        .Button .logo{
+           position: relative;
+           right: 30px;
+        }
+
+
+        .main-card3{ 
+           
+            display: flex;
+            flex-wrap: wrap;
+             /* height: 100%; */
+            /* width: 68%;  */
+           
+           justify-content: flex-start;
+           gap: 30px;
+           align-items: center;
+          align-content: flex-start;
+         
+        }  
+         .cards3{
+            display: flex;
+flex-direction: column;
+flex-flow: wrap column;
+
+align-content: space-around;
+/* margin-top: 11%; */
+position: relative;
+top: 28%;
+left: -5%;
+        }
+        .card3{
+            display: block;
+            height: 170px;
+            width: 340px;
+            background-color: #2f4050e7;
+            border-radius: 10px;
+
+        }
+        .image3{
+            position: relative;
+            top: 10px;
+            left: -3px;
+        width: 65px;
+        height: 65px;
+        border-radius: 10px;
+        }
+        .pen3{
+            position: relative;
+            left: 89%;
+            top:-27px ;
+            color: white;
+        }
+    .name3{
+        position: relative;
+        bottom: 27%;
+        left: 25%;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+       }
+
+       /* .active{
+        position: relative;
+        bottom: 40%;
+        left: 68%;
+        color: rgb(15, 128, 0);
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       } */
+
+       .agm{
+         position: relative;
+         bottom: 26%;
+         left: 30%;
+         color:  hsl(200,100%,50%);
+         font-family: "Poppins", sans-serif;
+         font-weight: 300;
+         
+
+       }
+
+       .Mobile3{
+
+         position: relative;
+         bottom: 19%;
+         left: 25%;
+         color:  rgba(255, 255, 255, 0.557);
+         font-family: "Poppins", sans-serif;
+         font-weight: 300;
+       }
+       .Dawn3{
+         position: relative;
+       bottom: 29%;
+         left: 26%;
+         color: rgba(255, 255, 255, 0.557);
+         font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+ 
+  #menu3{
+   position: relative;
+   left: 42%;
+   top: 22px;
+  }
+  #menuu3{
+   position: relative;
+   right: -5%;
+  }

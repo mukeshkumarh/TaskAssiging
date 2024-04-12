@@ -1,0 +1,140 @@
+.main-contaimar1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.content1{
+    width: 500px;
+    height: 450px;
+    background-color:  #2F4050;
+    border-radius: 10px;
+}
+.header1{
+    height: 60px;
+    background-color: hsl(200, 100%, 50%);
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+.header1 .hr{
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 6%;
+    font-family: "Poppins", sans-serif;
+font-weight: 200;
+}
+.fa-times1{
+    color: white;
+    position: relative;
+    left: 94%;
+    bottom: 10%;
+    font-size: x-large;
+}
+.uploadct1{
+    background-color: antiquewhite;
+}
+.upload1{
+    background-color:  #2F4050;
+    height: 10%;
+    width: 45%;
+    position: relative;
+    left: 42%;
+    
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.759);
+}
+.text1{
+    color: rgba(255, 255, 255, 0.557);
+    position: relative;
+    left: 45%;
+    bottom: 44%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+.logo1{
+color:  rgba(255, 255, 255, 0.557) ;
+position: relative;
+left: 20%;
+top: 13%;
+font-size: x-large;
+}
+.vendor1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+.placeholder1{
+    position: relative;
+    left: 5%;
+    top: 10%;
+    
+}
+
+.link{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 14%;
+    left: 19px;
+}
+
+.click-containar{
+    position: relative;
+    left: 75%;
+    top: 10%;
+}
+
+.No{
+    position: relative;
+    left:43px ;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.chack{
+    position: relative;
+    left:35px ;
+    font-size: xx-large;
+    border: 1px solid white;
+    color: #2F4050;
+}
+.yes{
+    position: relative;
+    right:12px ; 
+    color: white; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.placeholder1 input[type="text"]{
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+color:rgba(255, 255, 255, 0.557);
+background-color: #2F4050 ;
+border: 1px solid white;
+}
+
+.sumbt1{
+    position: relative;
+    left: 60%;
+    top: 20%;
+}
+
+.login-footeeer11{
+   
+  }
+  .Button00{
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 7px 60px;
+    border-radius: 8px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
